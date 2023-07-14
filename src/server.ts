@@ -13,10 +13,9 @@ app.use((req: Request, res: Response) => {
     .status(500)
     .json({ status: "failed", info: "invalid route" });
 });
- 
+
 app.listen(port, function () {
-    console.log(`starting app on: ${port}`);
-  });
-  
-  export default app;
-  
+  console.log(`starting app on: ${port}`);
+});
+
+export default app;

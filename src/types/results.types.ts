@@ -1,4 +1,4 @@
-export type resutls ={
+export type resutls = {
   latitude: string;
-  longitude:string;
-  }
+  longitude: string;
+};
